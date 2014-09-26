@@ -1,2 +1,2 @@
-web: /home/vagrant/.rvm/bin/r212_bundle exec rails s Puma -e production -p $PORT -C config/puma.rb
-sidekiq: /home/vagrant/.rvm/bin/r212_bundle exec sidekiq
+web: /home/vagrant/.rvm/bin/r212_bundler exec rails s Puma -e production -p $PORT -C config/puma.rb
+sidekiq: /home/vagrant/.rvm/bin/r212_bundler exec sidekiq
