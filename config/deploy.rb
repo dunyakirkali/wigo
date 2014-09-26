@@ -10,7 +10,7 @@ set :repo_url, 'git@bitbucket.org:dunyakirkali/wigo.git'
 # Default deploy_to directory is /var/www/my_app
 set :deploy_to, '/var/www/wigo'
 
-set :foreman_env, shared_path.join('.env')
+set :foreman_env, shared_path.join('Procfile.env')
 
 # Default value for :scm is :git
 # set :scm, :git
