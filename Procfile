@@ -1,1 +1,1 @@
-web: /bin/bash -l -c 'bundle exec rails s Puma -e production -p $PORT'
+web: ~/.rvm/bin/r212_bundle exec rails s Puma -e production -p $PORT -C config/puma.rb
