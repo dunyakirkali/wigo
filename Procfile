@@ -1,1 +1,1 @@
-web: rails s Puma -e production -p 3000
+web: rails s Puma -e production -p $PORT
