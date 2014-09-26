@@ -55,5 +55,6 @@ namespace :deploy do
       # end
     end
   end
-
 end
+
+after "deploy:restart", "foreman:restart"
