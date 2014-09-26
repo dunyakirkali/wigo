@@ -1,1 +1,1 @@
-web: rails s Puma -e production -p 8080
+web: rails s Puma -e production -p 80
