@@ -10,7 +10,7 @@ set :repo_url, 'git@bitbucket.org:dunyakirkali/wigo.git'
 # Default deploy_to directory is /var/www/my_app
 set :deploy_to, '/var/www/wigo'
 
-set :foreman_env, release_path.join('.env')
+set :foreman_env, shared_path.join('.env')
 
 # Default value for :scm is :git
 # set :scm, :git
@@ -41,8 +41,7 @@ namespace :deploy do
   desc 'Restart application'
   task :restart do
     on roles(:app), in: :sequence, wait: 5 do
-      # Your restart mechanism here, for example:
-      # execute :touch, release_path.join('tmp/restart.txt')
+      foreman.restart
     end
   end
 
