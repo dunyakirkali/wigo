@@ -2,14 +2,13 @@
 lock '3.2.1'
 
 set :application, 'wigo'
-set :deploy_via, :copy
-set :scm, :git
+set :repo_url, 'git@bitbucket.org:dunyakirkali/wigo.git'
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
 
 # Default deploy_to directory is /var/www/my_app
-# set :deploy_to, '/var/www/my_app'
+set :deploy_to, '/var/www/wigo'
 
 # Default value for :scm is :git
 # set :scm, :git
