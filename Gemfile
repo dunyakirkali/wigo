@@ -16,6 +16,7 @@ gem "slim-rails"
 gem "foundation-rails"
 gem 'puma'
 gem 'capistrano', '~> 3.2.0'
+gem 'capistrano3-foreman'
 group :development, :test do
   gem "rspec-rails"
   gem "faker"
