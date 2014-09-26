@@ -1,1 +1,1 @@
-web: bundle exec rails s Puma -e production -p $PORT
+web: /bin/bash -l -c 'bundle exec rails s Puma -e production -p $PORT'
