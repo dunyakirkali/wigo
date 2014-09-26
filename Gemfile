@@ -16,7 +16,7 @@ gem "slim-rails"
 gem "foundation-rails"
 gem 'puma'
 gem 'capistrano', '~> 3.2.0'
-gem 'capistrano3-foreman'
+gem 'capistrano-foreman'
 gem 'capistrano-rvm'
 gem 'capistrano-bundler', '~> 1.1.2'
 gem 'capistrano-rails', '~> 1.1'
