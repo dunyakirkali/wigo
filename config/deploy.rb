@@ -2,7 +2,8 @@
 lock '3.2.1'
 
 set :application, 'wigo'
-set :repo_url, 'git@example.com:me/my_repo.git'
+set :deploy_via, :copy
+set :scm, :git
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
