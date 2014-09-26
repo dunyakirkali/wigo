@@ -1,6 +1,6 @@
 # config/deploy/vagrant.rb
-# set :rails_env, "production"
 set :user, "vagrant"
+set :rails_env, 'production'
 
 server "127.0.0.1", user: 'vagrant', roles: %w{web app db}, primary: true
 

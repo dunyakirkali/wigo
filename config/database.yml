@@ -17,9 +17,3 @@ production:
   encoding: unicode
   database: wigo_production
   pool: 5
-
-vagrant:
-  adapter: postgresql
-  encoding: unicode
-  database: wigo_vagrant
-  pool: 5
