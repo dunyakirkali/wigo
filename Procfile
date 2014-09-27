@@ -1,3 +1,3 @@
-web: bundle exec puma -S puma -C config/puma.rb
+web: bundle exec rails s -e production -p $PORT
 sidekiq: bundle exec sidekiq
 solr: bundle exec rake sunspot:solr:start
